@@ -3,7 +3,7 @@
 #+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
 #+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+options: timestamp:t title:t toc:t todo:t |:t
-#+title: README
+#+title: SMILE nix shells collection
 #+date: <2022-01-14 Fri>
 #+author: Nasy
 #+email: nasyxx@gmail.com
@@ -13,12 +13,9 @@
 #+creator: Emacs 29.0.50 (Org mode 9.5.2)
 #+cite_export:
 
-
-* SMILE nix shells collection
-
 SMILE nix shells collection for UTA SMILE lab.
 
-** glances
+* glances
 
 #+begin_src shell
   nix-shell glances.nix --pure
@@ -26,7 +23,7 @@ SMILE nix shells collection for UTA SMILE lab.
 
 Run a glances web instance.
 
-** tf-models
+* tf-models
 
 To activate env:
 
